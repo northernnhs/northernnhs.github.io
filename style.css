@@ -42,7 +42,7 @@
 	50%{background-position:100% 19%}
 	100%{background-position:0% 82%}
 }
-.overlay {
+.container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -59,4 +59,7 @@
 }
 a {
 	color: white !important;
+}
+input[type='text'] {
+	font-family: 'Quicksand', sans-serif;
 }
