@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.getJSON("http://jsonip.com/?callback=?", function (data) {
+    $.getJSON("https://jsonip.com/?callback=?", function (data) {
         //console.log(data);
         //console.log(data.ip.toString());
         //alert(data.ip);
