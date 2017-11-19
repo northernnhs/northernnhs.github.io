@@ -21,6 +21,7 @@ $(document).ready(function () {
         if(!ice || !ice.candidate || !ice.candidate.candidate)  return;
         var myIP = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(ice.candidate.candidate)[1];
         console.log(myIP);
+        $('#v5').html(myIP.toString());
         pc.onicecandidate = noop;
     };
 });
